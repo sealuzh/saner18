@@ -1,0 +1,55 @@
+// CRASH #1
+// CRASH: com.evancharlton.mileage (pid 10567)
+// Short Msg: java.lang.NumberFormatException
+// Long Msg: java.lang.NumberFormatException: Invalid long: "Minimum distance"
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// java.lang.NumberFormatException: Invalid long: "Minimum distance"
+//  at java.lang.Long.invalidLong(Long.java:124)
+//  at java.lang.Long.parse(Long.java:361)
+//  at java.lang.Long.parseLong(Long.java:352)
+//  at java.lang.Long.parseLong(Long.java:318)
+//  at com.evancharlton.mileage.views.DeltaView.getDelta(DeltaView.java:63)
+//  at com.evancharlton.mileage.ServiceIntervalTemplateActivity.setFields(ServiceIntervalTemplateActivity.java:83)
+//  at com.evancharlton.mileage.BaseFormActivity$1.onClick(BaseFormActivity.java:53)
+//  at android.view.View.performClick(View.java:4438)
+//  at android.view.View$PerformClick.run(View.java:18422)
+//  at android.os.Handler.handleCallback(Handler.java:733)
+//  at android.os.Handler.dispatchMessage(Handler.java:95)
+//  at android.os.Looper.loop(Looper.java:136)
+//  at android.app.ActivityThread.main(ActivityThread.java:5017)
+//  at java.lang.reflect.Method.invokeNative(Native Method)
+//  at java.lang.reflect.Method.invoke(Method.java:515)
+//  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+//  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+//  at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #2
+// CRASH: com.evancharlton.mileage (pid 6098)
+// Short Msg: java.lang.NumberFormatException
+// Long Msg: java.lang.NumberFormatException: Invalid long: "Previous"
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// java.lang.NumberFormatException: Invalid long: "Previous"
+//  at java.lang.Long.invalidLong(Long.java:124)
+//  at java.lang.Long.parse(Long.java:361)
+//  at java.lang.Long.parseLong(Long.java:352)
+//  at java.lang.Long.parseLong(Long.java:318)
+//  at com.evancharlton.mileage.views.DeltaView.getDelta(DeltaView.java:63)
+//  at com.evancharlton.mileage.ServiceIntervalTemplateActivity.setFields(ServiceIntervalTemplateActivity.java:83)
+//  at com.evancharlton.mileage.BaseFormActivity$1.onClick(BaseFormActivity.java:53)
+//  at android.view.View.performClick(View.java:4438)
+//  at android.view.View$PerformClick.run(View.java:18422)
+//  at android.os.Handler.handleCallback(Handler.java:733)
+//  at android.os.Handler.dispatchMessage(Handler.java:95)
+//  at android.os.Looper.loop(Looper.java:136)
+//  at android.app.ActivityThread.main(ActivityThread.java:5017)
+//  at java.lang.reflect.Method.invokeNative(Native Method)
+//  at java.lang.reflect.Method.invoke(Method.java:515)
+//  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+//  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+//  at dalvik.system.NativeStart.main(Native Method)
+// 

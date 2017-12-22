@@ -1,0 +1,148 @@
+// CRASH #1
+// CRASH: com.ringdroid (pid 7424)
+// Short Msg: android.database.StaleDataException
+// Long Msg: android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// 	at android.database.BulkCursorToCursorAdaptor.throwIfCursorIsClosed(BulkCursorToCursorAdaptor.java:64)
+// 	at android.database.BulkCursorToCursorAdaptor.getCount(BulkCursorToCursorAdaptor.java:70)
+// 	at android.database.CursorWrapper.getCount(CursorWrapper.java:57)
+// 	at android.database.MergeCursor.getCount(MergeCursor.java:61)
+// 	at android.widget.CursorAdapter.getCount(CursorAdapter.java:200)
+// 	at android.widget.AdapterView.isScrollableForAccessibility(AdapterView.java:964)
+// 	at android.widget.AdapterView.onInitializeAccessibilityEvent(AdapterView.java:950)
+// 	at android.widget.AbsListView.onInitializeAccessibilityEvent(AbsListView.java:1469)
+// 	at android.widget.ListView.onInitializeAccessibilityEvent(ListView.java:3775)
+// 	at android.widget.AdapterView.onRequestSendAccessibilityEvent(AdapterView.java:926)
+// 	at android.view.ViewGroup.requestSendAccessibilityEvent(ViewGroup.java:704)
+// 	at android.view.ViewGroup.requestSendAccessibilityEvent(ViewGroup.java:708)
+// 	at android.view.View.sendAccessibilityEventUncheckedInternal(View.java:4952)
+// 	at android.view.View.sendAccessibilityEventUnchecked(View.java:4933)
+// 	at android.view.View$SendViewStateChangedAccessibilityEvent.run(View.java:19489)
+// 	at android.os.Handler.handleCallback(Handler.java:733)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #2
+// CRASH: com.ringdroid (pid 8464)
+// Short Msg: android.database.StaleDataException
+// Long Msg: android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// 	at android.database.BulkCursorToCursorAdaptor.throwIfCursorIsClosed(BulkCursorToCursorAdaptor.java:64)
+// 	at android.database.BulkCursorToCursorAdaptor.getCount(BulkCursorToCursorAdaptor.java:70)
+// 	at android.database.CursorWrapper.getCount(CursorWrapper.java:57)
+// 	at android.database.MergeCursor.getCount(MergeCursor.java:61)
+// 	at android.widget.CursorAdapter.getCount(CursorAdapter.java:200)
+// 	at android.widget.AdapterView.isScrollableForAccessibility(AdapterView.java:964)
+// 	at android.widget.AdapterView.onInitializeAccessibilityEvent(AdapterView.java:950)
+// 	at android.widget.AbsListView.onInitializeAccessibilityEvent(AbsListView.java:1469)
+// 	at android.widget.ListView.onInitializeAccessibilityEvent(ListView.java:3775)
+// 	at android.view.View.sendAccessibilityEventUncheckedInternal(View.java:4946)
+// 	at android.view.View.sendAccessibilityEventUnchecked(View.java:4933)
+// 	at android.view.View.sendAccessibilityEventInternal(View.java:4910)
+// 	at android.view.View.sendAccessibilityEvent(View.java:4879)
+// 	at android.widget.AbsListView.sendAccessibilityEvent(AbsListView.java:1464)
+// 	at android.view.View$SendViewScrolledAccessibilityEvent.run(View.java:19179)
+// 	at android.os.Handler.handleCallback(Handler.java:733)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #3
+// CRASH: com.ringdroid (pid 20442)
+// Short Msg: android.database.StaleDataException
+// Long Msg: android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// 	at android.database.BulkCursorToCursorAdaptor.throwIfCursorIsClosed(BulkCursorToCursorAdaptor.java:64)
+// 	at android.database.BulkCursorToCursorAdaptor.getCount(BulkCursorToCursorAdaptor.java:70)
+// 	at android.database.CursorWrapper.getCount(CursorWrapper.java:57)
+// 	at android.database.MergeCursor.getCount(MergeCursor.java:61)
+// 	at android.widget.CursorAdapter.getCount(CursorAdapter.java:200)
+// 	at android.widget.ListView.onMeasure(ListView.java:1144)
+// 	at android.view.View.measure(View.java:16514)
+// 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:847)
+// 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:588)
+// 	at android.view.View.measure(View.java:16514)
+// 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5125)
+// 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+// 	at android.view.View.measure(View.java:16514)
+// 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5125)
+// 	at com.android.internal.widget.ActionBarOverlayLayout.onMeasure(ActionBarOverlayLayout.java:327)
+// 	at android.view.View.measure(View.java:16514)
+// 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:5125)
+// 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:310)
+// 	at com.android.internal.policy.impl.PhoneWindow$DecorView.onMeasure(PhoneWindow.java:2556)
+// 	at android.view.View.measure(View.java:16514)
+// 	at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:1912)
+// 	at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1109)
+// 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1291)
+// 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:996)
+// 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:5600)
+// 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:761)
+// 	at android.view.Choreographer.doCallbacks(Choreographer.java:574)
+// 	at android.view.Choreographer.doFrame(Choreographer.java:544)
+// 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:747)
+// 	at android.os.Handler.handleCallback(Handler.java:733)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #4
+// CRASH: com.ringdroid (pid 301)
+// Short Msg: android.database.StaleDataException
+// Long Msg: android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// android.database.StaleDataException: Attempted to access a cursor after it has been closed.
+// 	at android.database.BulkCursorToCursorAdaptor.throwIfCursorIsClosed(BulkCursorToCursorAdaptor.java:64)
+// 	at android.database.BulkCursorToCursorAdaptor.getCount(BulkCursorToCursorAdaptor.java:70)
+// 	at android.database.CursorWrapper.getCount(CursorWrapper.java:57)
+// 	at android.database.MergeCursor.getCount(MergeCursor.java:61)
+// 	at android.widget.CursorAdapter.getCount(CursorAdapter.java:200)
+// 	at android.widget.ListView.lookForSelectablePosition(ListView.java:2002)
+// 	at android.widget.AbsListView.resurrectSelection(AbsListView.java:5553)
+// 	at android.widget.AbsListView.onWindowFocusChanged(AbsListView.java:2968)
+// 	at android.view.View.dispatchWindowFocusChanged(View.java:7900)
+// 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:968)
+// 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:972)
+// 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:972)
+// 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:972)
+// 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:972)
+// 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3133)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 

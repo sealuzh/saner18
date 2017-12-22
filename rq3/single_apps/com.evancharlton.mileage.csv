@@ -1,0 +1,40 @@
+id,package,review,oracle,output-dice,output-jaccard,output-vsm,topic
+4d0c5b5d-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,"Average Odometer does not let me enter tenths of a mile, sometimes the app crashes when I try to enter anything in the """"""""""""""""Extra Data"""""""""""""""" field""""",#1,1,1,1,
+213bedac-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Nice until it crashes full of data I have been using for several years accumulating data today it crashes and I lost all my reports.,no,0,0,0,
+78c32789-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Good app  suggestions for import improvements Pretty good. Import crashes if there are missing fields App is set to enter volume and total price  import with volume and price but no price per unit  will end up showing $1.00 in price per unit. Editing and saving without change updates to the correct values. With only one car you still have to have an ID column it could skip this and allow choosing a single car. It could recognise names of columns in CSV import rather than requiring you to enter them all even if the names match.,no,0,0,0,import
+8400f65e-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Cannot import data to G Note2 I can't import the data from my old HTC Thunderbolt to my new Galaxy Note 2. App force closes during import. Also no statistic charts or graphs in Jelly Besn version  unlike the Gingerbread version which does. Waiting for developer to respond.,no,0,0,0,import
+9b4c181f-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Force close. Haven't been able to add new fill-ups for the last two updates.,no,0,0,0,
+a06a84eb-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,ICS and JB Crashes on my galaxy nexus when loading graphs. One of my favorite apps. Been running it for 2+ years.,no,0,0,0,plot
+a6110d77-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Perfect for what I need Works perfectly on HTC Incredible & Razr Maxx. I had a little trouble with import  so with next phone I simply sent myself the backup file automatically created on old phone & dropped it into folder on new phone. Viola  all mileage data is there & no crashes.,no,0,0,0,import
+c34b5a6e-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,It worked fine until I upgraded it. Now all it does is stop  force close all the time. I even tried uninstalling and reinstalling. Still does not work,no,0,0,0,
+c515ba35-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,crash crash Does not work on Galaxy Note. Force close every time.,no,0,0,0,
+de4f3f5d-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Galaxy nexus Fixed force close issues. App is so freaking awesome. Thank you!!,no,0,0,0,
+e0c79265-df4d-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,good but no plots on gnex Used to get plots on my Droid incredible but every time I try to view plots on galaxy nexus it crashes the app.,no,0,0,0,plot
+0914577d-df4e-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Buggy Constantly crashes when calculating statistics with ICS,no,0,0,0,stats
+793aabc8-df4e-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Would be excellent if restore from another device worked! Instead it crashes.,no,0,0,0,restore
+e13d41b2-df4e-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Been using this since I got the Droid and it was working great. Now it just keeps crashing upon opening even after uninstalling and reinstalling!,no,0,0,0,
+4ccfb5e2-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,After updating  it force closes and won't even open on my motorola droid.,no,0,0,0,
+5612ed39-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Loved it b4 this update now it wont open! Force closes on my moment!,no,0,0,0,
+583d203f-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Worked fine until last update. Just plain crashes when trying to enter the fill up info. Well this sucks... Droid 2,no,0,0,0,fill up
+88940033-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Update wont open  just force closes.,no,0,0,0,
+893c7536-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Started force closing every time try to save new entry  fix this and my rating would be 5 stars,no,0,0,0,
+8e6e6a02-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Force closes on moto Droid. Was great...,no,0,0,0,
+90b4b088-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Force close after update. Still not fixed,no,0,0,0,
+c42d91f1-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Latest update force crashes,no,0,0,0,
+c56cc8b5-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Force closes when opening after upgrade.,no,0,0,0,
+c5a3b737-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,"DO NOT UPDATE! '""""""""""""""""WAS"""""""""""""""" 1 of the best mileage apps i have used so far but update FORCE CLOSES when trying to open app htc Dream 1.5""""",no,0,0,0,
+cbbd9b11-df4f-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,just updated now force closes lost all entries,no,0,0,0,
+066e0522-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Was working fine till now. After upgrade force close every time. Galaxy Spica,no,0,0,0,
+0e39deb6-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,I did backup...not restoring and force closes. don't upgrade! is there a way to install older version?,no,0,0,0,
+106ac87c-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Love this app but update force closes on G2,no,0,0,0,
+4eb1c6f1-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Consistant crashing on Import Data,no,0,0,0,
+544d52fe-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Getting error and force close. Unable to use. EVO- Android 2.2,no,0,0,0,
+9e14a685-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,I'm a little irritated right now with this app since it keeps forcing closed when I try to restore my latest back up so I'm not happy right now.,no,0,0,0,restore
+a474bb15-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Excellent program with all the trimmings! Only problem: force close after upgrading my Cliq to Android v2.1 and had to reinstall.,no,0,0,0,
+a6be0edb-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,This app is utter garbage when you have to reinstall it for any reason. The import backups force closes on Heros and Desires!! Use aCar instead.,no,0,0,0,
+e9789401-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Import causes crashes. Please fix,no,0,0,0,import
+f29caaa1-df50-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Crashes when trying to import previously exported backup,no,0,0,0,import
+486c70c8-df51-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,To fix force closes when importing CSV files  try different date/time formats. I had wrong one selected. Dev  need better error handling for inputs.,no,0,0,0,csv format
+4c7a09d5-df51-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Force close when importing previously created backups. I spend hours to import at first time and now forced to find another app,no,0,0,0,import
+4d26c49a-df51-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Force closes when importing backup csv file. emailed developer and received no response. epic 4g,no,0,0,0,import
+4ebddf60-df51-11e6-8f37-fa163e345ce9,com.evancharlton.mileage,Had been working great on G1. On G2 w/android 2.2  force closes when try to import previous database.,no,0,0,0,import

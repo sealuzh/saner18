@@ -1,0 +1,152 @@
+// CRASH #1
+// CRASH: org.liberty.android.fantastischmemo (pid 3587)
+// Short Msg: org.xmlpull.v1.XmlPullParserException
+// Long Msg: org.xmlpull.v1.XmlPullParserException: Binary XML file line #1: invalid drawable tag vector
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// android.view.InflateException: Binary XML file line #8: Error inflating class ImageButton
+//  at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:714)
+//  at android.view.LayoutInflater.rInflate(LayoutInflater.java:756)
+//  at android.view.LayoutInflater.inflate(LayoutInflater.java:492)
+//  at android.view.LayoutInflater.inflate(LayoutInflater.java:397)
+//  at org.liberty.android.fantastischmemo.ui.CardPlayerFragment.onCreateView(CardPlayerFragment.java:92)
+//  at android.support.v4.app.Fragment.performCreateView(Fragment.java:2184)
+//  at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1298)
+//  at android.support.v4.app.FragmentManagerImpl.moveFragmentsToInvisible(FragmentManager.java:2323)
+//  at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2136)
+//  at android.support.v4.app.FragmentManagerImpl.optimizeAndExecuteOps(FragmentManager.java:2092)
+//  at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1998)
+//  at android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:709)
+//  at android.os.Handler.handleCallback(Handler.java:733)
+//  at android.os.Handler.dispatchMessage(Handler.java:95)
+//  at android.os.Looper.loop(Looper.java:136)
+//  at android.app.ActivityThread.main(ActivityThread.java:5017)
+//  at java.lang.reflect.Method.invokeNative(Native Method)
+//  at java.lang.reflect.Method.invoke(Method.java:515)
+//  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+//  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+//  at dalvik.system.NativeStart.main(Native Method)
+// Caused by: android.content.res.Resources$NotFoundException: File res/drawable/card_player_play_button.xml from drawable resource ID #0x7f02005f
+//  at android.content.res.Resources.loadDrawable(Resources.java:2101)
+//  at android.content.res.Resources.getDrawable(Resources.java:700)
+//  at android.support.v7.widget.ResourcesWrapper.getDrawable(ResourcesWrapper.java:128)
+//  at android.support.v7.widget.TintResources.getDrawable(TintResources.java:45)
+//  at android.support.v4.content.ContextCompat.getDrawable(ContextCompat.java:374)
+//  at android.support.v7.widget.AppCompatDrawableManager.getDrawable(AppCompatDrawableManager.java:202)
+//  at android.support.v7.widget.AppCompatDrawableManager.getDrawable(AppCompatDrawableManager.java:190)
+//  at android.support.v7.content.res.AppCompatResources.getDrawable(AppCompatResources.java:100)
+//  at android.support.v7.widget.AppCompatImageHelper.loadFromAttributes(AppCompatImageHelper.java:54)
+//  at android.support.v7.widget.AppCompatImageButton.<init>(AppCompatImageButton.java:66)
+//  at android.support.v7.widget.AppCompatImageButton.<init>(AppCompatImageButton.java:56)
+//  at android.support.v7.app.AppCompatViewInflater.createView(AppCompatViewInflater.java:118)
+//  at android.support.v7.app.AppCompatDelegateImplV9.createView(AppCompatDelegateImplV9.java:1021)
+//  at android.support.v7.app.AppCompatDelegateImplV9.onCreateView(AppCompatDelegateImplV9.java:1080)
+//  at android.support.v4.view.LayoutInflaterCompatHC$FactoryWrapperHC.onCreateView(LayoutInflaterCompatHC.java:47)
+//  at android.view.LayoutInflater$FactoryMerger.onCreateView(LayoutInflater.java:172)
+//  at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:685)
+//  ... 20 more
+// Caused by: android.content.res.Resources$NotFoundException: File res/drawable/media_pause.xml from drawable resource ID #0x7f020084
+//  at android.content.res.Resources.loadDrawable(Resources.java:2101)
+//  at android.content.res.Resources.getDrawable(Resources.java:700)
+//  at android.graphics.drawable.StateListDrawable.inflate(StateListDrawable.java:176)
+//  at android.graphics.drawable.Drawable.createFromXmlInner(Drawable.java:937)
+//  at android.graphics.drawable.Drawable.createFromXml(Drawable.java:877)
+//  at android.content.res.Resources.loadDrawable(Resources.java:2097)
+//  ... 36 more
+// Caused by: org.xmlpull.v1.XmlPullParserException: Binary XML file line #1: invalid drawable tag vector
+//  at android.graphics.drawable.Drawable.createFromXmlInner(Drawable.java:933)
+//  at android.graphics.drawable.Drawable.createFromXml(Drawable.java:877)
+//  at android.content.res.Resources.loadDrawable(Resources.java:2097)
+//  ... 41 more
+// 
+
+// CRASH #2
+// CRASH: org.liberty.android.fantastischmemo (pid 12545)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// java.lang.NullPointerException
+// 	at org.liberty.android.fantastischmemo.ui.QuizActivity.onOptionsItemSelected(QuizActivity.java:156)
+// 	at android.app.Activity.onMenuItemSelected(Activity.java:2600)
+// 	at android.support.v4.app.FragmentActivity.onMenuItemSelected(FragmentActivity.java:408)
+// 	at android.support.v7.app.AppCompatActivity.onMenuItemSelected(AppCompatActivity.java:198)
+// 	at android.support.v7.view.WindowCallbackWrapper.onMenuItemSelected(WindowCallbackWrapper.java:113)
+// 	at android.support.v7.app.AppCompatDelegateImplV9.onMenuItemSelected(AppCompatDelegateImplV9.java:675)
+// 	at android.support.v7.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:822)
+// 	at android.support.v7.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:156)
+// 	at android.support.v7.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:969)
+// 	at android.support.v7.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:959)
+// 	at android.support.v7.widget.ActionMenuView.invokeItem(ActionMenuView.java:623)
+// 	at android.support.v7.view.menu.ActionMenuItemView.onClick(ActionMenuItemView.java:154)
+// 	at android.view.View.performClick(View.java:4438)
+// 	at android.view.View$PerformClick.run(View.java:18422)
+// 	at android.os.Handler.handleCallback(Handler.java:733)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+
+// CRASH #3
+// CRASH: org.liberty.android.fantastischmemo (pid 16871)
+// Short Msg: android.content.ActivityNotFoundException
+// Long Msg: android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=market://search?q=pname:org.liberty.android.fantastischmemopro }
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=market://search?q=pname:org.liberty.android.fantastischmemopro }
+// 	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1632)
+// 	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1424)
+// 	at android.app.Activity.startActivityForResult(Activity.java:3424)
+// 	at android.support.v4.app.BaseFragmentActivityJB.startActivityForResult(BaseFragmentActivityJB.java:50)
+// 	at android.support.v4.app.FragmentActivity.startActivityForResult(FragmentActivity.java:79)
+// 	at android.support.v4.app.ActivityCompatJB.startActivityForResult(ActivityCompatJB.java:30)
+// 	at android.support.v4.app.ActivityCompat.startActivityForResult(ActivityCompat.java:146)
+// 	at android.support.v4.app.FragmentActivity.startActivityFromFragment(FragmentActivity.java:932)
+// 	at android.support.v4.app.FragmentActivity$HostCallbacks.onStartActivityFromFragment(FragmentActivity.java:1047)
+// 	at android.support.v4.app.Fragment.startActivity(Fragment.java:935)
+// 	at android.support.v4.app.Fragment.startActivity(Fragment.java:924)
+// 	at org.liberty.android.fantastischmemo.ui.MiscTabFragment$2.onClick(MiscTabFragment.java:349)
+// 	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:166)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #4
+// CRASH: org.liberty.android.fantastischmemo (pid 20284)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// java.lang.NullPointerException
+// 	at org.liberty.android.fantastischmemo.ui.CardPlayerActivity.bindCardPlayerService(CardPlayerActivity.java:213)
+// 	at org.liberty.android.fantastischmemo.ui.CardPlayerActivity.onPostInit(CardPlayerActivity.java:111)
+// 	at org.liberty.android.fantastischmemo.ui.QACardActivity$2.run(QACardActivity.java:648)
+// 	at android.os.Handler.handleCallback(Handler.java:733)
+// 	at android.os.Handler.dispatchMessage(Handler.java:95)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5017)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+
+

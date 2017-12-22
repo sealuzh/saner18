@@ -1,0 +1,29 @@
+id,package,review,oracle,output-dice,output-jaccard,output-vsm
+7c96e619-afc9-11e6-a4b5-c4b301cdf627,com.amaze.filemanager,Crash issue Just installed and tried. IT CRASHES everytime I try to rename a file. OS is jellybean on MT6589 chip  so I guess it should work fine. So uninstalling as of now.,#2,#2,no,#2
+7c96eba3-afc9-11e6-86a7-c4b301cdf627,com.amaze.filemanager,Crashes  nice interface Looks good but crashes on create folder,#2,#2,#2,#2
+04d03197-f313-11e6-885c-000c29dba5da,com.amaze.filemanager,I really like the app  but lately I've been having problems with file actions  after trying something (paste  delete  rename  etc.) It crashes out :(,#2,no,no,no
+7c96ccfa-afc9-11e6-afbf-c4b301cdf627,com.amaze.filemanager,FYI-Crashes when I click Movies bookmark On the side menu  I clicked on 'Movies' bookmark. The app crashed all of a sudden. I had no Movies folder that time.,#4,#7,no,#6
+7c96ec9e-afc9-11e6-af35-c4b301cdf627,com.amaze.filemanager,Crash On Nexus 5 with 6.0.1 when I try to open as card folder the app crash.,#5,#5,#5,#4
+7c96f20a-afc9-11e6-afb0-c4b301cdf627,com.amaze.filemanager,Every time I press the the recent apps button the app crashes.,#5,no,no,no
+c90bf38b-2f8c-11e7-8be7-000c29dba5da,com.amaze.filemanager,Every time I press the the recent apps button the app crashes.,#5,#5,#5,#2
+7c96d36b-afc9-11e6-802a-c4b301cdf627,com.amaze.filemanager,Great !!!!! but crashes Nice job so far But saving the 5th star for when its a little more stable.,no,no,#1,#3
+7c96d3ee-afc9-11e6-ada1-c4b301cdf627,com.amaze.filemanager,Just crashes Tried to delete file and it crashed. Tried to copy a file and it crashed. Though this would be good replacement for ESFile but it fails miserably.,no,no,no,no
+7c96da0f-afc9-11e6-a6cf-c4b301cdf627,com.amaze.filemanager,Was using it but now just crashes Installed Amaze some months ago but now I can't use it. I go to open it and it always reports 'Amaze has stopped'. Using a Nexus 5,no,no,no,#2
+7c96dce8-afc9-11e6-a00d-c4b301cdf627,com.amaze.filemanager,Constantly crashes I love that this is open source  but the fact that it crashes all the time is a real problem. I'll try on another device soon.,no,#3,no,#1
+7c96e226-afc9-11e6-acde-c4b301cdf627,com.amaze.filemanager,Its really great except... I am not able to delete files/folders.The app is crashing when I try to do so. Even after the latest update,no,no,no,no
+7c96ee23-afc9-11e6-9ce8-c4b301cdf627,com.amaze.filemanager,Works well Had a problem with the previous update where the app would crash on open. The 10/6 update fixed the issue. Very quick response from the developer.,no,no,#4,no
+7c96f07a-afc9-11e6-9183-c4b301cdf627,com.amaze.filemanager,yeah! ... you fixed the crashing,no,no,no,no
+7c96f387-afc9-11e6-809e-c4b301cdf627,com.amaze.filemanager,As others are saying  it updated this morning and now crashes every time I open it. This is a great app! I use it all the time. PLEASE fix it ASAP!,no,no,no,no
+7c96f40a-afc9-11e6-8de7-c4b301cdf627,com.amaze.filemanager,Crashed,no,no,no,#4
+33908e20-bb09-11e6-813c-fa163e345ce9,com.amaze.filemanager,simple  fast and quick fast and simple file manager. does the job well without any bloatware. the SMB functionality needs more polish it crashes when i play remote video files,no,no,#7,no
+35654e25-bb09-11e6-813c-fa163e345ce9,com.amaze.filemanager,Crashes when i try to cut and then paste a file into another storage (phone Xperia V),no,no,no,no
+9404dea8-c18f-11e6-862e-fa163e345ce9,com.amaze.filemanager,Crash Whenever I copy anything from internal to external storage  the app crashes. Please fix. Device: D6653 android 6.0.1,no,no,no,no
+af746751-c8a1-11e6-94bc-fa163e345ce9,com.amaze.filemanager,Crashing after the update New update is crashing whenever I try to move it copy!! Fix it please,no,no,no,no
+6716e8b2-cafd-11e6-807e-fa163e345ce9,com.amaze.filemanager,Liked it a lot  but... On my Moto X Play running Cyanogenmod 14.1 crashes when trying to work on the SD card.,no,no,no,no
+eac7e45b-ce21-11e6-998a-fa163e345ce9,com.amaze.filemanager,Buggy Multi pane is fixed. Now it force closes when you delete something,no,no,no,no
+d9b01c91-e9a2-11e6-aa52-fa163e345ce9,com.amaze.filemanager,Great interface. no ads or intrusive content and/or useless features. _È«ç However the app doesn't move files it just copies them around. And it can crash when given lage files to handle. Fix those issues and you'll get a full 5stars rating! _ÈÄ_ Wow Amaze great moves! Keep it up. I'm proud of you!,no,no,no,no
+03abd5d6-f313-11e6-885c-000c29dba5da,com.amaze.filemanager,When I select a couple of pictures and I cut them and then paste in the SD card the app crashes im running Android 4.4.4,no,no,no,no
+1c421d55-0393-11e7-bc67-000c29dba5da,com.amaze.filemanager,Reliably crashes when switching from another app,no,no,no,no
+622f06b8-209e-11e7-b9a0-000c29dba5da,com.amaze.filemanager,Looks great. It does crash every now and then though,no,no,no,no
+59cf57a2-2d00-11e7-8745-000c29dba5da,com.amaze.filemanager,When using the root explorer  it literally crashes my entire device.,no,no,no,no
+c72d6f87-2f8c-11e7-8be7-000c29dba5da,com.amaze.filemanager,When using the root explorer  it literally crashes my entire device. It also crashes when trying to change drawer image. Not stable on the MI5.,no,no,no,no

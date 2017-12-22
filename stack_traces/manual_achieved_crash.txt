@@ -1,0 +1,23 @@
+Fatal signal 6 (SIGABRT), code -6 in tid 3230 (lazco.fbwrapper)
+[ 10-12 09:03:15.298   121:  121 W/         ]
+debuggerd: handling request: pid=3230 uid=10061 gid=10061 tid=3230
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'samsung/espresso10wifixx/espresso10wifi:4.2.2/JDQ39/P5110XXDML1:user/release-keys'
+Revision: '0'
+ABI: 'arm'
+3230, tid: 3230, name: lazco.fbwrapper  >>> com.danvelazco.fbwrapper <<<
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+Abort message: '[FATAL:jni_android.cc(236)] Please include Java exception stack in crash report'
+r0 00000000  r1 00000c9e  r2 00000006  r3 00000008
+r4 a796558c  r5 00000006  r6 a7965534  r7 0000010c
+r8 a6896008  r9 bebb8acc  sl 00000000  fp 00100019
+ip 0000000b  sp bebb8620  lr a68546a7  pc a6856f10  cpsr 600f0010
+backtrace:
+    #00 pc 00049f10  /system/lib/libc.so (tgkill+12)
+    #01 pc 000476a3  /system/lib/libc.so (pthread_kill+34)
+    #02 pc 0001d745  /system/lib/libc.so (raise+10)
+    #03 pc 00019291  /system/lib/libc.so (__libc_android_abort+34)
+    #04 pc 00017038  /system/lib/libc.so (abort+4)
+    #05 pc 01a4a181  /system/app/webview/webview.apk (offset 0x812000)
+E/ConnectivityService(411): RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+E/ConnectivityService(411): RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]

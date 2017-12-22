@@ -1,0 +1,30 @@
+// CRASH #1
+// CRASH: cri.sanity (pid 16871)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException: Unable to start activity ComponentInfo{cri.sanity/cri.sanity.screen.VibraActivity}: java.lang.NullPointerException
+// Build Label: generic_x86/google_sdk_x86/generic_x86:4.4.2/KK/4255240:eng/test-keys
+// Build Changelist: 4255240
+// Build Time: 1502218314000
+// java.lang.RuntimeException: Unable to start activity ComponentInfo{cri.sanity/cri.sanity.screen.VibraActivity}: java.lang.NullPointerException
+//  at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+//  at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+//  at android.app.ActivityThread.access$800(ActivityThread.java:135)
+//  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+//  at android.os.Handler.dispatchMessage(Handler.java:102)
+//  at android.os.Looper.loop(Looper.java:136)
+//  at android.app.ActivityThread.main(ActivityThread.java:5017)
+//  at java.lang.reflect.Method.invokeNative(Native Method)
+//  at java.lang.reflect.Method.invoke(Method.java:515)
+//  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+//  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+//  at dalvik.system.NativeStart.main(Native Method)
+// Caused by: java.lang.NullPointerException
+//  at cri.sanity.PrefActivity.on(PrefActivity.java:104)
+//  at cri.sanity.PrefActivity.fullOnly(PrefActivity.java:119)
+//  at cri.sanity.PrefActivity.fullOnly(PrefActivity.java:113)
+//  at cri.sanity.screen.VibraActivity.onCreate(VibraActivity.java:21)
+//  at android.app.Activity.performCreate(Activity.java:5231)
+//  at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+//  at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+//  ... 11 more
+// 

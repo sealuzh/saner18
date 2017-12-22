@@ -1,0 +1,157 @@
+// CRASH #1
+// CRASH: com.danvelazco.fbwrapper (pid 4302)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// java.lang.NullPointerException
+// 	at com.danvelazco.fbwrapper.activity.BaseFacebookWebViewActivity.onKeyDown(BaseFacebookWebViewActivity.java:649)
+// 	at com.danvelazco.fbwrapper.FbWrapper.onKeyDown(FbWrapper.java:429)
+// 	at android.view.KeyEvent.dispatch(KeyEvent.java:2640)
+// 	at android.app.Activity.dispatchKeyEvent(Activity.java:2433)
+// 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:2021)
+// 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:3845)
+// 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3819)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3392)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3442)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3411)
+// 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3518)
+// 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3419)
+// 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3575)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3392)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3442)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3411)
+// 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3419)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3392)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3442)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3411)
+// 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3551)
+// 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:3711)
+// 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2010)
+// 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1704)
+// 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1695)
+// 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:1987)
+// 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+// 	at android.os.MessageQueue.nativePollOnce(Native Method)
+// 	at android.os.MessageQueue.next(MessageQueue.java:138)
+// 	at android.os.Looper.loop(Looper.java:123)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #2
+// CRASH: com.danvelazco.fbwrapper (pid 12286)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// java.lang.NullPointerException
+// 	at com.danvelazco.fbwrapper.activity.BaseFacebookWebViewActivity.shareCurrentPage(BaseFacebookWebViewActivity.java:418)
+// 	at com.danvelazco.fbwrapper.FbWrapper.access$700(FbWrapper.java:26)
+// 	at com.danvelazco.fbwrapper.FbWrapper$MenuDrawerButtonListener.onClick(FbWrapper.java:376)
+// 	at android.view.View.performClick(View.java:4438)
+// 	at android.view.View.onKeyUp(View.java:8241)
+// 	at android.view.KeyEvent.dispatch(KeyEvent.java:2664)
+// 	at android.view.View.dispatchKeyEvent(View.java:7665)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1403)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+// 	at android.widget.ScrollView.dispatchKeyEvent(ScrollView.java:358)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+// 	at android.view.ViewGroup.dispatchKeyEvent(ViewGroup.java:1408)
+// 	at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchKeyEvent(PhoneWindow.java:2300)
+// 	at com.android.internal.policy.impl.PhoneWindow.superDispatchKeyEvent(PhoneWindow.java:1558)
+// 	at android.app.Activity.dispatchKeyEvent(Activity.java:2428)
+// 	at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:2021)
+// 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:3845)
+// 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:3819)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3392)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3442)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3411)
+// 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3518)
+// 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3419)
+// 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:3575)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3392)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3442)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3411)
+// 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3419)
+// 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3392)
+// 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3442)
+// 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3411)
+// 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3551)
+// 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:3711)
+// 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2010)
+// 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1704)
+// 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1695)
+// 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:1987)
+// 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+// 	at android.os.MessageQueue.nativePollOnce(Native Method)
+// 	at android.os.MessageQueue.next(MessageQueue.java:138)
+// 	at android.os.Looper.loop(Looper.java:123)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
+
+// CRASH #3
+// CRASH: com.danvelazco.fbwrapper (pid 12866)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException: Unable to resume activity {com.danvelazco.fbwrapper/com.danvelazco.fbwrapper.FbWrapper}: java.lang.NullPointerException
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// java.lang.RuntimeException: Unable to resume activity {com.danvelazco.fbwrapper/com.danvelazco.fbwrapper.FbWrapper}: java.lang.NullPointerException
+// 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2777)
+// 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2806)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1241)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// Caused by: java.lang.NullPointerException
+// 	at com.danvelazco.fbwrapper.activity.BaseFacebookWebViewActivity.onResume(BaseFacebookWebViewActivity.java:194)
+// 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1192)
+// 	at android.app.Activity.performResume(Activity.java:5320)
+// 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2767)
+// 	... 10 more
+// 
+
+// CRASH #4
+// CRASH: com.danvelazco.fbwrapper (pid 14865)
+// Short Msg: java.lang.NullPointerException
+// Long Msg: java.lang.NullPointerException
+// Build Label: samsung/espressowifixx/espressowifi:4.2.2/JDQ39/P3110XXDMH1:user/release-keys
+// Build Changelist: 8291
+// Build Time: 1419156873000
+// java.lang.NullPointerException
+// 	at com.danvelazco.fbwrapper.activity.BaseFacebookWebViewActivity.onSaveInstanceState(BaseFacebookWebViewActivity.java:247)
+// 	at android.app.Activity.performSaveInstanceState(Activity.java:1155)
+// 	at android.app.Instrumentation.callActivityOnSaveInstanceState(Instrumentation.java:1223)
+// 	at android.app.ActivityThread.performStopActivityInner(ActivityThread.java:3164)
+// 	at android.app.ActivityThread.handleStopActivity(ActivityThread.java:3223)
+// 	at android.app.ActivityThread.access$1100(ActivityThread.java:138)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1226)
+// 	at android.os.Handler.dispatchMessage(Handler.java:102)
+// 	at android.os.Looper.loop(Looper.java:136)
+// 	at android.app.ActivityThread.main(ActivityThread.java:5034)
+// 	at java.lang.reflect.Method.invokeNative(Native Method)
+// 	at java.lang.reflect.Method.invoke(Method.java:515)
+// 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+// 	at dalvik.system.NativeStart.main(Native Method)
+// 
